@@ -1,0 +1,44 @@
+.otpinput{
+ 
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 1.2em;
+    margin:5px;
+  }
+  .form-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+  }
+
+  .login-container {
+    background-color:  #f7f3e6; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust height as needed */
+  }
+  
+  
+  .terms-and-conditions{
+    display:flex;
+  }
+ 
+  .form-element input,
+  .form-element button {
+    margin: 5px;
+    border: 2px solid grey;
+    border-radius: 5px;
+     /* Adjust the spacing between the input field and button */
+  }
+  .form-element button{
+    padding: 10px;
+    color:black;
+   
+    border-radius: 10px;
+
+  }
+  
+  

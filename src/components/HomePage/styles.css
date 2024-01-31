@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  
+}
+
+.header-left {
+  margin: 30px;
+}
+
+.header-right {
+  margin: 100px;
+}
+
+.section {
+  margin-left: 100px;
+  color: #328484;
+}
+
+.features {
+  display: flex;
+ 
+  align-content: space-between;
+}
+
+.feature {
+  margin: 100px;
+}
+
+.feature button {
+  width: 200px;
+  color: #e7625f;
+  border-radius: 20px;
+  border-color: #e7625f;
+  padding: 10px;
+  background-color: white;
+}
+
+.feature:nth-child(2) button {
+  color: white;
+  background-color: #e7625f;
+}

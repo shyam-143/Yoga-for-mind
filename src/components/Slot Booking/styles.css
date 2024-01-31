@@ -1,0 +1,55 @@
+
+
+
+
+.pageflow{
+  display: flex;
+}
+
+.date{
+ align-items: center;
+  margin: 20px;
+  padding:5px 20px 5px 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.cy{
+  display: flex;
+  flex-direction: row;
+}
+
+.slot-booking{
+  background-color: #f7f3e6;
+}
+
+.time-slot{
+  background-color: white;
+  border:2px solid black;
+  border-radius: 5px;
+  margin:10px; /* Adjust margin as needed */
+
+}
+.time-slot-top {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin:10px;
+}
+
+.package-detail {
+  flex-grow: 1;
+}
+
+.price-details {
+  text-align: right;
+}
+
+.price p {
+  margin: 0;
+}
